@@ -1,0 +1,75 @@
+[0.165s] Invoking command in '/home/nata/ws_ruka/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/nata/ws_ruka/src/ros-controls/ros2_control_demos/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/nata/ws_ruka/install/ros2_control_demo_description
+[0.450s] -- The C compiler identification is GNU 11.4.0
+[0.635s] -- The CXX compiler identification is GNU 11.4.0
+[0.661s] -- Detecting C compiler ABI info
+[0.788s] -- Detecting C compiler ABI info - done
+[0.800s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.801s] -- Detecting C compile features
+[0.803s] -- Detecting C compile features - done
+[0.810s] -- Detecting CXX compiler ABI info
+[0.944s] -- Detecting CXX compiler ABI info - done
+[0.957s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.957s] -- Detecting CXX compile features
+[0.958s] -- Detecting CXX compile features - done
+[0.985s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.290s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.645s] -- Configuring done
+[1.648s] -- Generating done
+[1.650s] -- Build files have been written to: /home/nata/ws_ruka/build/ros2_control_demo_description
+[1.657s] Invoked command in '/home/nata/ws_ruka/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake /home/nata/ws_ruka/src/ros-controls/ros2_control_demos/ros2_control_demo_description -DCMAKE_INSTALL_PREFIX=/home/nata/ws_ruka/install/ros2_control_demo_description
+[1.661s] Invoking command in '/home/nata/ws_ruka/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/nata/ws_ruka/build/ros2_control_demo_description -- -j8 -l8
+[1.721s] Invoked command in '/home/nata/ws_ruka/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --build /home/nata/ws_ruka/build/ros2_control_demo_description -- -j8 -l8
+[1.779s] Invoking command in '/home/nata/ws_ruka/build/ros2_control_demo_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/nata/ws_ruka/build/ros2_control_demo_description
+[1.789s] -- Install configuration: ""
+[1.790s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf
+[1.801s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot.materials.xacro
+[1.802s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/urdf/rrbot_description.urdf.xacro
+[1.804s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz
+[1.805s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/rrbot/rviz/rrbot.rviz
+[1.806s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf
+[1.807s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot.materials.xacro
+[1.808s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/urdf/diffbot_description.urdf.xacro
+[1.809s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz
+[1.810s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot.rviz
+[1.810s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/diffbot/rviz/diffbot_view.rviz
+[1.811s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes
+[1.812s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision
+[1.813s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_4.stl
+[1.815s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_1.stl
+[1.817s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_0.stl
+[1.818s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_2.stl
+[1.822s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_3.stl
+[1.826s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_6.stl
+[1.829s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/collision/link_5.stl
+[1.830s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual
+[1.831s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_1.dae
+[1.834s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_5.dae
+[1.837s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_3.dae
+[1.842s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_2.dae
+[1.855s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_4.dae
+[1.858s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_0.dae
+[1.859s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/meshes/visual/link_6.dae
+[1.862s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf
+[1.862s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/srdf/r6bot.srdf
+[1.863s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf
+[1.864s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/r6bot_description.urdf.xacro
+[1.865s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc
+[1.866s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/urdf/inc/create_link.xacro
+[1.867s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz
+[1.868s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/r6bot/rviz/view_robot.rviz
+[1.869s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_description
+[1.869s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_description
+[1.870s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.sh
+[1.870s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/ament_prefix_path.dsv
+[1.871s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.sh
+[1.871s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/environment/path.dsv
+[1.871s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.bash
+[1.872s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.sh
+[1.872s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.zsh
+[1.873s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/local_setup.dsv
+[1.873s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/package.dsv
+[1.874s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ament_index/resource_index/packages/ros2_control_demo_description
+[1.874s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig.cmake
+[1.874s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/cmake/ros2_control_demo_descriptionConfig-version.cmake
+[1.874s] -- Installing: /home/nata/ws_ruka/install/ros2_control_demo_description/share/ros2_control_demo_description/package.xml
+[1.877s] Invoked command in '/home/nata/ws_ruka/build/ros2_control_demo_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble /usr/bin/cmake --install /home/nata/ws_ruka/build/ros2_control_demo_description

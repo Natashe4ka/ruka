@@ -1,0 +1,10 @@
+[01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type joint_trajectory_controller::JointTrajectoryController::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:111:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%li[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 3 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+  111 |     printf("Got command %.5f for joint [01;35m[K%li[m[K \n", joint_position_[i], [32m[K"vel"[m[K, joint_velocities_[i] ,i);
+      |                                        [01;35m[K~~^[m[K                          [32m[K~~~~~[m[K
+      |                                          [01;35m[K|[m[K                          [32m[K|[m[K
+      |                                          [01;35m[Klong int[m[K                   [32m[Kconst char*[m[K
+      |                                        [32m[K%s[m[K
+[01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:111:12:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+  111 |     printf([01;35m[K"Got command %.5f for joint %li \n"[m[K, joint_position_[i], "vel", joint_velocities_[i] ,i);
+      |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

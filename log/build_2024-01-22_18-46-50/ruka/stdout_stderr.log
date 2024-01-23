@@ -1,0 +1,19 @@
+[35m[1mConsolidate compiler generated dependencies of target ruka[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/ruka.dir/hardware/ruka_hardware.cpp.o[0m
+[01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type joint_trajectory_controller::JointTrajectoryController::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:110:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+  110 |   RCLCPP_INFO(rclcpp::[01;31m[Kget_logger[m[K("JointTrajectoryController"),
+      |                       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:110:3:[m[K [01;31m[Kerror: [m[K‘[01m[KRCLCPP_INFO[m[K’ was not declared in this scope; did you mean ‘[01m[KRCLCPP_IMPORT[m[K’?
+  110 |   [01;31m[KRCLCPP_INFO[m[K(rclcpp::get_logger("JointTrajectoryController"),
+      |   [01;31m[K^~~~~~~~~~~[m[K
+      |   [32m[KRCLCPP_IMPORT[m[K
+[01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:115:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+  115 |     RCLCPP_INFO(rclcpp::[01;31m[Kget_logger[m[K("JointTrajectoryController"),
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:118:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kget_logger[m[K’ is not a member of ‘[01m[Krclcpp[m[K’
+  118 |   RCLCPP_INFO(rclcpp::[01;31m[Kget_logger[m[K("JointTrajectoryController"),
+      |                       [01;31m[K^~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/ruka.dir/build.make:76: CMakeFiles/ruka.dir/hardware/ruka_hardware.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/ruka.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

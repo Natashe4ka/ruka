@@ -1,0 +1,11 @@
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/uninstall.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/ruka_control_uninstall.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/send_trajectory.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/ruka_control.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/test.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/edit_cache.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/rebuild_cache.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/list_install_components.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/install.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/install/local.dir
+/home/nata/ws_ruka/build/ruka_control/CMakeFiles/install/strip.dir

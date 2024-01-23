@@ -1,0 +1,10 @@
+/home/nata/ws_ruka/build/try_control/CMakeFiles/uninstall.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/try_control_uninstall.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/try_control.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/test.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/edit_cache.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/rebuild_cache.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/list_install_components.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/install.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/install/local.dir
+/home/nata/ws_ruka/build/try_control/CMakeFiles/install/strip.dir

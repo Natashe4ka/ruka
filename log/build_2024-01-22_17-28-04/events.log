@@ -1,0 +1,200 @@
+[0.000000] (-) TimerEvent: {}
+[0.001197] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.001362] (-) JobUnselected: {'identifier': 'admittance_controller'}
+[0.001439] (-) JobUnselected: {'identifier': 'bicycle_steering_controller'}
+[0.002401] (-) JobUnselected: {'identifier': 'control_msgs'}
+[0.002448] (-) JobUnselected: {'identifier': 'control_toolbox'}
+[0.002788] (-) JobUnselected: {'identifier': 'controller_interface'}
+[0.002842] (-) JobUnselected: {'identifier': 'controller_manager'}
+[0.002878] (-) JobUnselected: {'identifier': 'controller_manager_msgs'}
+[0.002892] (-) JobUnselected: {'identifier': 'diff_drive_controller'}
+[0.002904] (-) JobUnselected: {'identifier': 'effort_controllers'}
+[0.002936] (-) JobUnselected: {'identifier': 'force_torque_sensor_broadcaster'}
+[0.002950] (-) JobUnselected: {'identifier': 'forward_command_controller'}
+[0.002964] (-) JobUnselected: {'identifier': 'gripper_controllers'}
+[0.002996] (-) JobUnselected: {'identifier': 'hardware_interface'}
+[0.003027] (-) JobUnselected: {'identifier': 'imu_sensor_broadcaster'}
+[0.003060] (-) JobUnselected: {'identifier': 'joint_limits'}
+[0.003073] (-) JobUnselected: {'identifier': 'joint_state_broadcaster'}
+[0.003105] (-) JobUnselected: {'identifier': 'joint_trajectory_controller'}
+[0.003119] (-) JobUnselected: {'identifier': 'kinematics_interface'}
+[0.003143] (-) JobUnselected: {'identifier': 'kinematics_interface_kdl'}
+[0.003176] (-) JobUnselected: {'identifier': 'position_controllers'}
+[0.003188] (-) JobUnselected: {'identifier': 'r_t'}
+[0.003202] (-) JobUnselected: {'identifier': 'range_sensor_broadcaster'}
+[0.003235] (-) JobUnselected: {'identifier': 'realtime_tools'}
+[0.003268] (-) JobUnselected: {'identifier': 'ros2_control'}
+[0.003282] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.003353] (-) JobUnselected: {'identifier': 'ros2_control_demo_description'}
+[0.003387] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.003399] (-) JobUnselected: {'identifier': 'ros2_control_demo_example_7'}
+[0.003413] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.003424] (-) JobUnselected: {'identifier': 'ros2_control_demos'}
+[0.003457] (-) JobUnselected: {'identifier': 'ros2_control_test_assets'}
+[0.003472] (-) JobUnselected: {'identifier': 'ros2_controllers'}
+[0.003483] (-) JobUnselected: {'identifier': 'ros2_controllers_test_nodes'}
+[0.003515] (-) JobUnselected: {'identifier': 'ros2controlcli'}
+[0.003530] (-) JobUnselected: {'identifier': 'rqt_controller_manager'}
+[0.003721] (-) JobUnselected: {'identifier': 'rqt_joint_trajectory_controller'}
+[0.003767] (-) JobUnselected: {'identifier': 'steering_controllers_library'}
+[0.003784] (-) JobUnselected: {'identifier': 'transmission_interface'}
+[0.004005] (-) JobUnselected: {'identifier': 'tricycle_controller'}
+[0.004049] (-) JobUnselected: {'identifier': 'tricycle_steering_controller'}
+[0.004085] (-) JobUnselected: {'identifier': 'velocity_controllers'}
+[0.004122] (ruka) JobQueued: {'identifier': 'ruka', 'dependencies': OrderedDict([('control_msgs', '/home/nata/ws_ruka/install/control_msgs'), ('controller_manager_msgs', '/home/nata/ws_ruka/install/controller_manager_msgs'), ('realtime_tools', '/home/nata/ws_ruka/install/realtime_tools'), ('ros2_control_demo_description', '/home/nata/ws_ruka/install/ros2_control_demo_description'), ('ros2_control_test_assets', '/home/nata/ws_ruka/install/ros2_control_test_assets'), ('hardware_interface', '/home/nata/ws_ruka/install/hardware_interface'), ('r_t', '/home/nata/ws_ruka/install/r_t'), ('controller_interface', '/home/nata/ws_ruka/install/controller_interface'), ('controller_manager', '/home/nata/ws_ruka/install/controller_manager'), ('joint_state_broadcaster', '/home/nata/ws_ruka/install/joint_state_broadcaster'), ('ros2controlcli', '/home/nata/ws_ruka/install/ros2controlcli')])}
+[0.004182] (ruka) JobStarted: {'identifier': 'ruka'}
+[0.100072] (-) TimerEvent: {}
+[0.117879] (ruka) JobProgress: {'identifier': 'ruka', 'progress': 'cmake'}
+[0.118452] (ruka) Command: {'cmd': ['/usr/bin/cmake', '/home/nata/ws_ruka/src/ruka', '-DCMAKE_INSTALL_PREFIX=/home/nata/ws_ruka/install/ruka'], 'cwd': '/home/nata/ws_ruka/build/ruka', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nata'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nata/ws_ruka/install/joint_state_broadcaster/lib:/home/nata/ws_ruka/install/controller_manager/lib:/home/nata/ws_ruka/install/controller_interface/lib:/home/nata/ws_ruka/install/hardware_interface/lib:/home/nata/ws_ruka/install/controller_manager_msgs/lib:/home/nata/ws_ruka/install/control_msgs/lib:/home/nata/ws_ruka/install/ruka/lib:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nata'), ('OLDPWD', '/home/nata'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '2042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/nata/ws_vr'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nata/ws_ruka/install:/home/nata/ws_ruka/ros2_control_demos/install:/home/nata/ws_vr/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nata'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nata'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nata/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nata-virtual-machine:@/tmp/.ICE-unix/2012,unix/nata-virtual-machine:/tmp/.ICE-unix/2012'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2e88333_a5a2_4af4_9e21_216c41b106b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CERHH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1046'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demos:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_description:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nata/ws_ruka/build/ruka'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nata/ws_ruka/install/ros2controlcli/lib/python3.10/site-packages:/home/nata/ws_ruka/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/nata/ws_ruka/install/controller_manager/local/lib/python3.10/dist-packages:/home/nata/ws_ruka/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/nata/ws_ruka/install/control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demos:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_description:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[0.200287] (-) TimerEvent: {}
+[0.285435] (ruka) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.300707] (-) TimerEvent: {}
+[0.357200] (ruka) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.378960] (ruka) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.401203] (-) TimerEvent: {}
+[0.461015] (ruka) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.467744] (ruka) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.468877] (ruka) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.470242] (ruka) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.474960] (ruka) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501609] (-) TimerEvent: {}
+[0.560415] (ruka) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.567298] (ruka) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.567926] (ruka) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.568244] (ruka) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.582485] (ruka) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.601965] (-) TimerEvent: {}
+[0.702756] (-) TimerEvent: {}
+[0.782319] (ruka) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.803492] (-) TimerEvent: {}
+[0.904125] (-) TimerEvent: {}
+[0.943458] (ruka) StdoutLine: {'line': b'-- Found hardware_interface: 2.36.1 (/home/nata/ws_ruka/install/hardware_interface/share/hardware_interface/cmake)\n'}
+[1.004665] (-) TimerEvent: {}
+[1.048514] (ruka) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.061465] (ruka) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.082568] (ruka) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.105246] (-) TimerEvent: {}
+[1.118410] (ruka) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.159728] (ruka) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205777] (-) TimerEvent: {}
+[1.306374] (-) TimerEvent: {}
+[1.407069] (-) TimerEvent: {}
+[1.507595] (-) TimerEvent: {}
+[1.608440] (-) TimerEvent: {}
+[1.708933] (-) TimerEvent: {}
+[1.809507] (-) TimerEvent: {}
+[1.910134] (-) TimerEvent: {}
+[2.011232] (-) TimerEvent: {}
+[2.019369] (ruka) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.027387] (ruka) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.101710] (ruka) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.111675] (-) TimerEvent: {}
+[2.190549] (ruka) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[2.196314] (ruka) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.212406] (-) TimerEvent: {}
+[2.214350] (ruka) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[2.224685] (ruka) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.233045] (ruka) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[2.246341] (ruka) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.272303] (ruka) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.312644] (-) TimerEvent: {}
+[2.354651] (ruka) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.355363] (ruka) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.413243] (-) TimerEvent: {}
+[2.438636] (ruka) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[2.439557] (ruka) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.514000] (-) TimerEvent: {}
+[2.614660] (-) TimerEvent: {}
+[2.702398] (ruka) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.6 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[2.715163] (-) TimerEvent: {}
+[2.781043] (ruka) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.805786] (ruka) StdoutLine: {'line': b'-- Generating done\n'}
+[2.807698] (ruka) StdoutLine: {'line': b'-- Build files have been written to: /home/nata/ws_ruka/build/ruka\n'}
+[2.815363] (-) TimerEvent: {}
+[2.818518] (ruka) CommandEnded: {'returncode': 0}
+[2.819414] (ruka) JobProgress: {'identifier': 'ruka', 'progress': 'build'}
+[2.820135] (ruka) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nata/ws_ruka/build/ruka', '--', '-j8', '-l8'], 'cwd': '/home/nata/ws_ruka/build/ruka', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nata'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nata/ws_ruka/install/joint_state_broadcaster/lib:/home/nata/ws_ruka/install/controller_manager/lib:/home/nata/ws_ruka/install/controller_interface/lib:/home/nata/ws_ruka/install/hardware_interface/lib:/home/nata/ws_ruka/install/controller_manager_msgs/lib:/home/nata/ws_ruka/install/control_msgs/lib:/home/nata/ws_ruka/install/ruka/lib:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nata'), ('OLDPWD', '/home/nata'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '2042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/nata/ws_vr'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nata/ws_ruka/install:/home/nata/ws_ruka/ros2_control_demos/install:/home/nata/ws_vr/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nata'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nata'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nata/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nata-virtual-machine:@/tmp/.ICE-unix/2012,unix/nata-virtual-machine:/tmp/.ICE-unix/2012'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2e88333_a5a2_4af4_9e21_216c41b106b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CERHH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1046'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demos:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_description:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nata/ws_ruka/build/ruka'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nata/ws_ruka/install/ros2controlcli/lib/python3.10/site-packages:/home/nata/ws_ruka/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/nata/ws_ruka/install/controller_manager/local/lib/python3.10/dist-packages:/home/nata/ws_ruka/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/nata/ws_ruka/install/control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demos:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_description:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[2.878850] (ruka) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ruka.dir/hardware/ruka_hardware.cpp.o\x1b[0m\n'}
+[2.915878] (-) TimerEvent: {}
+[3.016909] (-) TimerEvent: {}
+[3.117892] (-) TimerEvent: {}
+[3.218398] (-) TimerEvent: {}
+[3.318925] (-) TimerEvent: {}
+[3.419475] (-) TimerEvent: {}
+[3.520263] (-) TimerEvent: {}
+[3.620938] (-) TimerEvent: {}
+[3.721504] (-) TimerEvent: {}
+[3.822075] (-) TimerEvent: {}
+[3.923052] (-) TimerEvent: {}
+[4.023580] (-) TimerEvent: {}
+[4.124273] (-) TimerEvent: {}
+[4.225274] (-) TimerEvent: {}
+[4.310026] (ruka) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libruka.so\x1b[0m\n'}
+[4.325725] (-) TimerEvent: {}
+[4.426291] (-) TimerEvent: {}
+[4.511748] (ruka) StdoutLine: {'line': b'[100%] Built target ruka\n'}
+[4.523833] (ruka) CommandEnded: {'returncode': 0}
+[4.526719] (-) TimerEvent: {}
+[4.555165] (ruka) JobProgress: {'identifier': 'ruka', 'progress': 'install'}
+[4.568026] (ruka) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/nata/ws_ruka/build/ruka'], 'cwd': '/home/nata/ws_ruka/build/ruka', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nata'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nata/ws_ruka/install/joint_state_broadcaster/lib:/home/nata/ws_ruka/install/controller_manager/lib:/home/nata/ws_ruka/install/controller_interface/lib:/home/nata/ws_ruka/install/hardware_interface/lib:/home/nata/ws_ruka/install/controller_manager_msgs/lib:/home/nata/ws_ruka/install/control_msgs/lib:/home/nata/ws_ruka/install/ruka/lib:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/nata'), ('OLDPWD', '/home/nata'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '2042'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/home/nata/ws_vr'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/nata/ws_ruka/install:/home/nata/ws_ruka/ros2_control_demos/install:/home/nata/ws_vr/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'nata'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'nata'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/nata/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/nata-virtual-machine:@/tmp/.ICE-unix/2012,unix/nata-virtual-machine:/tmp/.ICE-unix/2012'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f2e88333_a5a2_4af4_9e21_216c41b106b2'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.CERHH2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1046'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demos:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_description:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nata/ws_ruka/build/ruka'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nata/ws_ruka/install/ros2controlcli/lib/python3.10/site-packages:/home/nata/ws_ruka/install/ros2_controllers_test_nodes/lib/python3.10/site-packages:/home/nata/ws_ruka/install/controller_manager/local/lib/python3.10/dist-packages:/home/nata/ws_ruka/install/controller_manager_msgs/local/lib/python3.10/dist-packages:/home/nata/ws_ruka/install/control_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demos:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_example_7:/home/nata/ws_ruka/ros2_control_demos/install/ros2_control_demo_description:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble')]), 'shell': False}
+[4.575342] (ruka) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.576481] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/ruka.xml\n'}
+[4.576566] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch\n'}
+[4.576614] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/demo.launch.py\n'}
+[4.587264] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/rsp.launch.py\n'}
+[4.588343] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/warehouse_db.launch.py\n'}
+[4.588823] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/view_ruka.rviz\n'}
+[4.590056] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/view_ruka.launch.py\n'}
+[4.591593] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/spawn_controllers.launch.py\n'}
+[4.592390] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/moveit_rviz.launch.py\n'}
+[4.593004] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/static_virtual_joint_tfs.launch.py\n'}
+[4.593474] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/setup_assistant.launch.py\n'}
+[4.594006] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/try.launch.py\n'}
+[4.594169] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/move_group.launch.py\n'}
+[4.594684] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/ruka_controller.launch.py\n'}
+[4.595287] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config\n'}
+[4.595490] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/sensors_3d.yaml\n'}
+[4.595982] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/pilz_cartesian_limits.yaml\n'}
+[4.596537] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/kinematics.yaml\n'}
+[4.597109] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/ruka.urdf.xacro\n'}
+[4.597400] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/moveit.rviz\n'}
+[4.598207] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/view.rviz\n'}
+[4.598547] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/initial_positions.yaml\n'}
+[4.599246] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/ros2_controllers.yaml\n'}
+[4.599519] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/joint_limits.yaml\n'}
+[4.599798] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/moveit_controllers.yaml\n'}
+[4.600522] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/ruka.ros2_control.xacro\n'}
+[4.600820] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/ruka.srdf\n'}
+[4.601080] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/config/ruka.urdf\n'}
+[4.602026] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/.setup_assistant\n'}
+[4.602352] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/include/ruka\n'}
+[4.602616] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/include/ruka/ruka_hardware.hpp\n'}
+[4.602723] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/lib/libruka.so\n'}
+[4.603496] (ruka) StdoutLine: {'line': b'-- Set runtime path of "/home/nata/ws_ruka/install/ruka/lib/libruka.so" to ""\n'}
+[4.603770] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/environment/library_path.sh\n'}
+[4.603873] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/environment/library_path.dsv\n'}
+[4.604608] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ament_index/resource_index/package_run_dependencies/ruka\n'}
+[4.604896] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ament_index/resource_index/parent_prefix_path/ruka\n'}
+[4.605058] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/environment/ament_prefix_path.sh\n'}
+[4.605256] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/environment/ament_prefix_path.dsv\n'}
+[4.605317] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/environment/path.sh\n'}
+[4.605437] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/environment/path.dsv\n'}
+[4.605643] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/local_setup.bash\n'}
+[4.605864] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/local_setup.sh\n'}
+[4.606053] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/local_setup.zsh\n'}
+[4.606114] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/local_setup.dsv\n'}
+[4.606237] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/package.dsv\n'}
+[4.606406] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ament_index/resource_index/packages/ruka\n'}
+[4.606512] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ruka\n'}
+[4.606615] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/export_rukaExport.cmake\n'}
+[4.606845] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/export_rukaExport-noconfig.cmake\n'}
+[4.606936] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.607050] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.607163] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/rukaConfig.cmake\n'}
+[4.607343] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/rukaConfig-version.cmake\n'}
+[4.607422] (ruka) StdoutLine: {'line': b'-- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/package.xml\n'}
+[4.609493] (ruka) CommandEnded: {'returncode': 0}
+[4.627490] (-) TimerEvent: {}
+[4.728883] (-) TimerEvent: {}
+[4.794475] (ruka) JobEnded: {'identifier': 'ruka', 'rc': 0}
+[4.795642] (-) EventReactorShutdown: {}

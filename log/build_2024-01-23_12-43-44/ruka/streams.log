@@ -1,0 +1,74 @@
+[0.209s] Invoking command in '/home/nata/ws_ruka/build/ruka': AMENT_PREFIX_PATH=/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_control_demo_description:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/opt/ros/humble CMAKE_PREFIX_PATH=/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/ros2_control_demo_description:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/install/ruka:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/nata/ws_ruka/install/joint_state_broadcaster/lib:/home/nata/ws_ruka/install/controller_manager/lib:/home/nata/ws_ruka/install/controller_interface/lib:/home/nata/ws_ruka/install/hardware_interface/lib:/home/nata/ws_ruka/install/controller_manager_msgs/lib:/home/nata/ws_ruka/install/control_msgs/lib:/home/nata/ws_ruka/install/ruka/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nata/ws_ruka/build/ruka -- -j8 -l8
+[0.303s] [35m[1mConsolidate compiler generated dependencies of target ruka[0m
+[0.323s] [ 50%] [32mBuilding CXX object CMakeFiles/ruka.dir/hardware/ruka_hardware.cpp.o[0m
+[1.324s] [01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type joint_trajectory_controller::JointTrajectoryController::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[1.324s] [01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:111:42:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%li[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 3 has type ‘[01m[Kconst char*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[1.324s]   111 |     printf("Got command %.5f for joint [01;35m[K%li[m[K \n", joint_position_[i], [32m[K"vel"[m[K, joint_velocities_[i] ,i);
+[1.325s]       |                                        [01;35m[K~~^[m[K                          [32m[K~~~~~[m[K
+[1.325s]       |                                          [01;35m[K|[m[K                          [32m[K|[m[K
+[1.325s]       |                                          [01;35m[Klong int[m[K                   [32m[Kconst char*[m[K
+[1.325s]       |                                        [32m[K%s[m[K
+[1.325s] [01m[K/home/nata/ws_ruka/src/ruka/hardware/ruka_hardware.cpp:111:12:[m[K [01;35m[Kwarning: [m[Ktoo many arguments for format [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat-extra-args-Wformat-extra-args]8;;[m[K]
+[1.325s]   111 |     printf([01;35m[K"Got command %.5f for joint %li \n"[m[K, joint_position_[i], "vel", joint_velocities_[i] ,i);
+[1.325s]       |            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.489s] [100%] [32m[1mLinking CXX shared library libruka.so[0m
+[2.876s] [100%] Built target ruka
+[2.890s] Invoked command in '/home/nata/ws_ruka/build/ruka' returned '0': AMENT_PREFIX_PATH=/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_control_demo_description:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/opt/ros/humble CMAKE_PREFIX_PATH=/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/ros2_control_demo_description:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/install/ruka:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/nata/ws_ruka/install/joint_state_broadcaster/lib:/home/nata/ws_ruka/install/controller_manager/lib:/home/nata/ws_ruka/install/controller_interface/lib:/home/nata/ws_ruka/install/hardware_interface/lib:/home/nata/ws_ruka/install/controller_manager_msgs/lib:/home/nata/ws_ruka/install/control_msgs/lib:/home/nata/ws_ruka/install/ruka/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/nata/ws_ruka/build/ruka -- -j8 -l8
+[2.939s] Invoking command in '/home/nata/ws_ruka/build/ruka': AMENT_PREFIX_PATH=/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_control_demo_description:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/opt/ros/humble CMAKE_PREFIX_PATH=/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/ros2_control_demo_description:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/install/ruka:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/nata/ws_ruka/install/joint_state_broadcaster/lib:/home/nata/ws_ruka/install/controller_manager/lib:/home/nata/ws_ruka/install/controller_interface/lib:/home/nata/ws_ruka/install/hardware_interface/lib:/home/nata/ws_ruka/install/controller_manager_msgs/lib:/home/nata/ws_ruka/install/control_msgs/lib:/home/nata/ws_ruka/install/ruka/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nata/ws_ruka/build/ruka
+[2.961s] -- Install configuration: ""
+[2.962s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/ruka.xml
+[2.962s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch
+[2.963s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/demo.launch.py
+[2.963s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/rsp.launch.py
+[2.963s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/warehouse_db.launch.py
+[2.963s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/view_ruka.rviz
+[2.964s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/view_ruka.launch.py
+[2.964s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/spawn_controllers.launch.py
+[2.964s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/moveit_rviz.launch.py
+[2.964s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/static_virtual_joint_tfs.launch.py
+[2.964s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/setup_assistant.launch.py
+[2.964s] -- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/launch/try.launch.py
+[2.965s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/move_group.launch.py
+[2.965s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/launch/ruka_controller.launch.py
+[2.966s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config
+[2.967s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/sensors_3d.yaml
+[2.967s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/pilz_cartesian_limits.yaml
+[2.967s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/kinematics.yaml
+[2.967s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/ruka.urdf.xacro
+[2.967s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/moveit.rviz
+[2.967s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/view.rviz
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/initial_positions.yaml
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/ros2_controllers.yaml
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/joint_limits.yaml
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/moveit_controllers.yaml
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/ruka.ros2_control.xacro
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/ruka.srdf
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/config/ruka.urdf
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/.setup_assistant
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/include/ruka
+[2.968s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/include/ruka/ruka_hardware.hpp
+[2.969s] -- Installing: /home/nata/ws_ruka/install/ruka/lib/libruka.so
+[2.971s] -- Set runtime path of "/home/nata/ws_ruka/install/ruka/lib/libruka.so" to ""
+[2.971s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/environment/library_path.sh
+[2.972s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/environment/library_path.dsv
+[2.972s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ament_index/resource_index/package_run_dependencies/ruka
+[2.972s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ament_index/resource_index/parent_prefix_path/ruka
+[2.972s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/environment/ament_prefix_path.sh
+[2.972s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/environment/ament_prefix_path.dsv
+[2.972s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/environment/path.sh
+[2.972s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/environment/path.dsv
+[2.972s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/local_setup.bash
+[2.973s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/local_setup.sh
+[2.973s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/local_setup.zsh
+[2.973s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/local_setup.dsv
+[2.973s] -- Installing: /home/nata/ws_ruka/install/ruka/share/ruka/package.dsv
+[2.973s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ament_index/resource_index/packages/ruka
+[2.975s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ruka
+[2.976s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/export_rukaExport.cmake
+[2.976s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/export_rukaExport-noconfig.cmake
+[2.977s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/ament_cmake_export_targets-extras.cmake
+[2.977s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.977s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/rukaConfig.cmake
+[2.977s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/cmake/rukaConfig-version.cmake
+[2.977s] -- Up-to-date: /home/nata/ws_ruka/install/ruka/share/ruka/package.xml
+[2.980s] Invoked command in '/home/nata/ws_ruka/build/ruka' returned '0': AMENT_PREFIX_PATH=/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_control_demo_description:/home/nata/ws_ruka/install/ruka:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/opt/ros/humble CMAKE_PREFIX_PATH=/home/nata/ws_ruka/install/joint_state_broadcaster:/home/nata/ws_ruka/install/controller_manager:/home/nata/ws_ruka/install/controller_interface:/home/nata/ws_ruka/install/r_t:/home/nata/ws_ruka/install/hardware_interface:/home/nata/ws_ruka/install/ros2_control_test_assets:/home/nata/ws_ruka/install/ros2_control_demo_description:/home/nata/ws_ruka/install/controller_manager_msgs:/home/nata/ws_ruka/install/control_msgs:/home/nata/ws_ruka/install/ruka:/home/nata/ws_vr/install/vr_hand:/home/nata/ws_vr/install/vr_t:/home/nata/ws_ruka/install/ros2controlcli:/home/nata/ws_ruka/install/ros2_controllers_test_nodes:/opt/ros/humble LD_LIBRARY_PATH=/home/nata/ws_ruka/install/joint_state_broadcaster/lib:/home/nata/ws_ruka/install/controller_manager/lib:/home/nata/ws_ruka/install/controller_interface/lib:/home/nata/ws_ruka/install/hardware_interface/lib:/home/nata/ws_ruka/install/controller_manager_msgs/lib:/home/nata/ws_ruka/install/control_msgs/lib:/home/nata/ws_ruka/install/ruka/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/nata/ws_ruka/build/ruka
