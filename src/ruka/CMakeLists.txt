@@ -10,22 +10,37 @@ endif()
 
 set(THIS_PACKAGE_INCLUDE_DEPENDS
   hardware_interface
+  controller_interface
+  realtime_tools
+ # semantic_components
+  sensor_msgs
   pluginlib
   rclcpp
   rclcpp_lifecycle
+  moveit_ros_planning_interface
+  
 )
 
 find_package(ament_cmake REQUIRED)
+find_package(moveit_ros_planning_interface REQUIRED)
+find_package(rclcpp REQUIRED)
+
+
 foreach(Dependency IN ITEMS ${THIS_PACKAGE_INCLUDE_DEPENDS})
   find_package(${Dependency} REQUIRED)
 endforeach()
+
+
 
 add_library(
   ruka
   SHARED
   hardware/ruka_hardware.cpp
-  #controller/ruka_controller.cpp
-)
+  hardware/ruka_sensor_hardware.cpp
+  
+  )
+  
+
 
 target_compile_features(ruka PUBLIC cxx_std_17)
 target_include_directories(ruka PUBLIC
@@ -33,6 +48,8 @@ $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/hardware/include>
 #$<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/controller/include>
 $<INSTALL_INTERFACE:include/ruka>
 )
+
+
 ament_target_dependencies(
   ruka PUBLIC
   ${THIS_PACKAGE_INCLUDE_DEPENDS}
@@ -62,6 +79,7 @@ install(TARGETS ruka
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION bin
 )
+
 
 if(BUILD_TESTING)
   find_package(ament_cmake_gtest REQUIRED)

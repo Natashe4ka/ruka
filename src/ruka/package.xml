@@ -48,10 +48,13 @@
   <exec_depend>moveit_ros_move_group</exec_depend>
   <exec_depend>moveit_ros_visualization</exec_depend>
   <exec_depend>moveit_ros_warehouse</exec_depend>
+  
+  <exec_depend>moveit_ros_planning_interface</exec_depend>
+  
   <exec_depend>moveit_setup_assistant</exec_depend>
   <exec_depend>launch_ros</exec_depend>
   <exec_depend>launch</exec_depend>
-  <exec_depend>r_t</exec_depend>
+  
   <exec_depend>robot_state_publisher</exec_depend>
   <exec_depend>ros2_control_demo_description</exec_depend>
   <exec_depend>ros2controlcli</exec_depend>

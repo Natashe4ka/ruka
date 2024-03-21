@@ -3,10 +3,12 @@
 #include <vector>
 #include <iostream>
 
-namespace joint_trajectory_controller
+namespace ruka
 {
-CallbackReturn JointTrajectoryController::on_init(const hardware_interface::HardwareInfo & info)
+CallbackReturn RukaSystem::on_init(const hardware_interface::HardwareInfo & info)
 {
+
+  printf("ON INIT RUKA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
   if (hardware_interface::SystemInterface::on_init(info) != CallbackReturn::SUCCESS)
   {
     return CallbackReturn::ERROR;
@@ -33,7 +35,7 @@ CallbackReturn JointTrajectoryController::on_init(const hardware_interface::Hard
   return CallbackReturn::SUCCESS;
 }
 
-std::vector<hardware_interface::StateInterface> JointTrajectoryController::export_state_interfaces()
+std::vector<hardware_interface::StateInterface> RukaSystem::export_state_interfaces()
 {
   std::vector<hardware_interface::StateInterface> state_interfaces;
 
@@ -59,7 +61,7 @@ std::vector<hardware_interface::StateInterface> JointTrajectoryController::expor
   return state_interfaces;
 }
 
-std::vector<hardware_interface::CommandInterface> JointTrajectoryController::export_command_interfaces()
+std::vector<hardware_interface::CommandInterface> RukaSystem::export_command_interfaces()
 {
   std::vector<hardware_interface::CommandInterface> command_interfaces;
 
@@ -85,10 +87,12 @@ std::vector<hardware_interface::CommandInterface> JointTrajectoryController::exp
   return command_interfaces;
 }
 
-return_type JointTrajectoryController::read(const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
+return_type RukaSystem::read(const rclcpp::Time & /*time*/, const rclcpp::Duration & period)
 {
   // TODO(pac48) set sensor_states_ values from subscriber
 
+
+  //printf("READ RUKA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
   for (auto i = 0ul; i < joint_velocities_command_.size(); i++)
   {
     joint_velocities_[i] = joint_velocities_command_[i];
@@ -103,15 +107,17 @@ return_type JointTrajectoryController::read(const rclcpp::Time & /*time*/, const
   return return_type::OK;
 }
 
-return_type JointTrajectoryController::write(const rclcpp::Time &, const rclcpp::Duration &)
+return_type RukaSystem::write(const rclcpp::Time &, const rclcpp::Duration &)
 {
 
-  for (auto i = 0ul; i < joint_velocities_command_.size(); i++) {
-    // Simulate sending commands to the hardware
-    printf("Got command %.5f for joint %li \n", joint_position_[i], i);
+//printf("write ruka!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
 
-  }
- // std::cout<<"pamagiti"<<std::endl;
+//  for (auto i = 0ul; i < joint_velocities_command_.size(); i++) {
+    
+//    printf("Got command %.5f for joint %li \n", joint_position_[i], i);
+
+//  }
+ // std::cout<<"CONTROLLER!!!!!!!!!!!!!!!!!!!!"<<std::endl;
   return return_type::OK;
 }
 
@@ -120,7 +126,7 @@ return_type JointTrajectoryController::write(const rclcpp::Time &, const rclcpp:
 #include "pluginlib/class_list_macros.hpp"
 
 PLUGINLIB_EXPORT_CLASS(
-  joint_trajectory_controller::JointTrajectoryController, hardware_interface::SystemInterface)
+  ruka::RukaSystem, hardware_interface::SystemInterface)
 
 
 

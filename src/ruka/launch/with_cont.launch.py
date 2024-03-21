@@ -88,7 +88,7 @@ def generate_launch_description():
         executable="static_transform_publisher",
         name="static_transform_publisher",
         output="log",
-        arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "base_link__link_01"],
+        arguments=["0.0", "0.0", "0.0", "0.0", "0.0", "0.0", "world", "base_link"],
     )
 
     # Publish TF
@@ -131,6 +131,11 @@ def generate_launch_description():
         executable="spawner",
         arguments=["ruka_arm_controller", "-c", "/controller_manager"],
     )
+    sensor_spawner = Node(
+        package="controller_manager",
+        executable="spawner",
+        arguments=["is_broadcaster", "--controller-manager", "/controller_manager"],
+    )
 
 
     # Warehouse mongodb server
@@ -158,7 +163,7 @@ def generate_launch_description():
             ros2_control_node,
             joint_state_broadcaster_spawner,
             ruka_arm_controller_spawner,
-            
+            sensor_spawner, 
             mongodb_server_node,
         ]
     )

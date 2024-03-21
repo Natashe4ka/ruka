@@ -161,9 +161,3 @@ def generate_launch_description():
             mongodb_server_node,
         ]
     )
-
-            # ros2_control_node,
-            # joint_state_broadcaster_spawner,
-            # ruka_arm_controller_spawner, ros2_control_hardware_type, static_tf_node,
-            # robot_state_publisher,    static_tf_node,
-            # robot_state_publisher,
