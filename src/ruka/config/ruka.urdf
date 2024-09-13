@@ -811,3 +811,251 @@
 
 
 </robot>
+
+    <!-- <joint name="link_06__link_hand_1" type="fixed">
+        <origin rpy="0 0 0" xyz="0 0 0"/>
+        <parent link="link_06"/>
+        <child link="link_hand_1"/>
+    </joint>
+
+    <link name="link_hand_1">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0.01" />
+            <geometry>
+                <cylinder radius="0.012" length="0.02" />
+            </geometry>
+            <material name="white"/>
+        </visual>
+
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0.01" />
+            <geometry>
+                <cylinder radius="0.010" length="0.01" />
+            </geometry>
+
+          </collision>
+
+        <visual>
+            <origin rpy="1.57 0 0" xyz="0.0061 0 0.02" />
+            <geometry>
+                <cylinder radius="0.006" length="0.02" />
+            </geometry>
+            <material name="white"/>
+            
+        </visual> -->
+
+        <!-- <collision>
+             <origin rpy="1.57 0 0" xyz="0.0025 0 0.02" />
+            <geometry>
+                <cylinder radius="0." length="0.02" />
+            </geometry>
+          </collision> -->
+
+
+        <!-- <visual>
+            <origin rpy="1.57 0 0" xyz="-0.0061 0 0.02" />
+            <geometry>
+                <cylinder radius="0.006" length="0.02" />
+            </geometry>
+            <material name="white"/>
+            
+        </visual> -->
+
+        <!-- <collision>
+            <origin rpy="1.57 0 0" xyz="-0.0025 0 0.02" />
+            <geometry>
+                <cylinder radius="0.0049" length="0.02" />
+            </geometry>
+          </collision> -->
+    <!-- </link>
+    
+    <joint name="link_hand_1__up_finger" type="revolute">
+        <axis xyz="0 1 0"/>
+
+        <safety_controller k_position="100.0" k_velocity="40.0" soft_lower_limit="0" soft_upper_limit="1.57" />
+
+        <limit effort="1000.0" lower="0" upper="1.57" velocity="0.5"/>
+        <origin rpy="0 0 0" xyz="0 0 0.02"/>
+        <parent link="link_hand_1"/>
+        <child link="up_finger"/>
+    </joint> 
+
+    <link name ="up_finger">
+        <visual>
+            <origin rpy="0 0 0" xyz="0.006 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.012 0.05"/>  
+            </geometry>
+            <material name="white"/>
+               
+        </visual>
+
+        <collision>
+            <origin rpy="0 0 0" xyz="0.006 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.011 0.05"/>  
+            </geometry>
+          </collision> -->
+
+          <!-- <visual>
+            <origin rpy="0 0 0" xyz="-0.006 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.012 0.05"/>  
+            </geometry>
+            <material name="white"/>
+               
+        </visual>
+
+        <collision>
+            <origin rpy="0 0 0" xyz="-0.006 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.011 0.05"/>  
+            </geometry>
+          </collision> -->
+    <!-- </link>
+
+    <joint name="up_finger__up_finger_mim" type="revolute">
+        <axis xyz="1 0 0"/>
+        <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+        <origin rpy="0 0 1.57" xyz="-0.006 0 0.05"/>
+        <parent link="down_finger"/>
+        <child link="down_finger_mim"/>
+        <mimic joint="link_hand_1__up_finger" multiplier="1" offset="0" />
+    </joint>
+
+
+
+    <link name="up_finger_mim">
+        <visual>
+            <origin rpy="0 1.57 0" xyz="0 0 0" />
+            <geometry>
+                <cylinder radius="0.006" length="0.011" />
+            </geometry>
+            <material name="white"/>
+        </visual> -->
+
+        <!-- <collision>
+            <origin rpy="1.57 0 0" xyz="0 0 0.01" />
+            <geometry>
+                <cylinder radius="0.012" length="0.011" />
+            </geometry>
+            <material name="white"/>
+
+          </collision> -->
+
+         <!-- <visual>
+            <origin rpy="0 0 0" xyz="0 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.012 0.05"/>  
+            </geometry>
+            <material name="white"/>
+               
+        </visual>
+
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.011 0.047"/>  
+            </geometry>
+          </collision>
+
+    </link> -->
+
+
+
+<!-- 
+    <joint name="up_finger__down_finger_mim" type="revolute">
+        <axis xyz="1 0 0"/>
+        <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+        <origin rpy="0 0 1.57" xyz="0.006 0 0.05"/>
+        <parent link="up_finger"/>
+        <child link="up_finger_mim"/>
+        <mimic joint="link_hand_1__up_finger" multiplier="-1" offset="0" />
+    </joint>
+
+
+
+    <link name="down_finger_mim">
+        <visual>
+            <origin rpy="0 1.57 0" xyz="0 0 0" />
+            <geometry>
+                <cylinder radius="0.006" length="0.011" />
+            </geometry>
+            <material name="white"/>
+        </visual> -->
+
+        <!-- <collision>
+            <origin rpy="1.57 0 0" xyz="0 0 0.01" />
+            <geometry>
+                <cylinder radius="0.012" length="0.011" />
+            </geometry>
+            <material name="white"/>
+
+          </collision> -->
+
+         <!-- <visual>
+            <origin rpy="0 0 0" xyz="0 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.012 0.05"/>  
+            </geometry>
+            <material name="white"/>
+               
+        </visual>
+
+        <collision>
+            <origin rpy="0 0 0" xyz="0 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.011 0.04"/>  
+            </geometry>
+          </collision>
+
+    </link> -->
+
+
+    <!-- <joint name="link_hand_1__down_finger" type="revolute">
+        <axis xyz="0 1 0"/>
+        <limit effort="1000.0" lower="-3.14" upper="3.14" velocity="0.5"/>
+        <origin rpy="0 0 0" xyz="0 0 0.02"/>
+        <parent link="link_hand_1"/>
+        <child link="down_finger"/>
+        <mimic joint="link_hand_1__up_finger" multiplier="-1" offset="0" />
+    </joint>
+
+
+     <link name ="down_finger"> -->
+        <!-- <visual>
+            <origin rpy="0 0 0" xyz="0.006 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.012 0.05"/>  
+            </geometry>
+            <material name="white"/>
+               
+        </visual>
+
+        <collision>
+            <origin rpy="0 0 0" xyz="0.006 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.011 0.05"/>  
+            </geometry>
+          </collision> -->
+<!-- 
+          <visual>
+            <origin rpy="0 0 0" xyz="-0.006 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.012 0.05"/>  
+            </geometry>
+            <material name="white"/>
+               
+        </visual>
+
+        <collision>
+            <origin rpy="0 0 0" xyz="-0.006 0 0.025" />
+            <geometry>
+                <box size ="0.011 0.011 0.047"/>  
+            </geometry>
+          </collision>
+    </link>
+   -->
+
+
+<!-- </robot> -->

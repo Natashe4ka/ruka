@@ -50,6 +50,7 @@
   <exec_depend>moveit_ros_warehouse</exec_depend>
   
   <exec_depend>moveit_ros_planning_interface</exec_depend>
+  <exec_depend>moveit_planners_ompl</exec_depend>
   
   <exec_depend>moveit_setup_assistant</exec_depend>
   <exec_depend>launch_ros</exec_depend>

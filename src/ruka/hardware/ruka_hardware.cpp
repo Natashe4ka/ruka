@@ -7,8 +7,6 @@ namespace ruka
 {
 CallbackReturn RukaSystem::on_init(const hardware_interface::HardwareInfo & info)
 {
-
-  printf("ON INIT RUKA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
   if (hardware_interface::SystemInterface::on_init(info) != CallbackReturn::SUCCESS)
   {
     return CallbackReturn::ERROR;
@@ -91,8 +89,6 @@ return_type RukaSystem::read(const rclcpp::Time & /*time*/, const rclcpp::Durati
 {
   // TODO(pac48) set sensor_states_ values from subscriber
 
-
-  //printf("READ RUKA!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
   for (auto i = 0ul; i < joint_velocities_command_.size(); i++)
   {
     joint_velocities_[i] = joint_velocities_command_[i];
@@ -110,18 +106,16 @@ return_type RukaSystem::read(const rclcpp::Time & /*time*/, const rclcpp::Durati
 return_type RukaSystem::write(const rclcpp::Time &, const rclcpp::Duration &)
 {
 
-//printf("write ruka!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+ // for (auto i = 0ul; i < joint_velocities_command_.size(); i++) {
+    // Simulate sending commands to the hardware
+ //   printf("Got command %.5f for joint %li \n", joint_position_[i], i);
 
-//  for (auto i = 0ul; i < joint_velocities_command_.size(); i++) {
-    
-//    printf("Got command %.5f for joint %li \n", joint_position_[i], i);
-
-//  }
- // std::cout<<"CONTROLLER!!!!!!!!!!!!!!!!!!!!"<<std::endl;
+ // }
+// std::cout<<"chudo"<<std::endl;
   return return_type::OK;
 }
 
-}  // namespace ros2_control_demo_example_7
+} 
 
 #include "pluginlib/class_list_macros.hpp"
 

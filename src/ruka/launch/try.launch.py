@@ -1,7 +1,5 @@
 
 
-
-
 import os
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
@@ -48,7 +46,7 @@ def generate_launch_description():
         )
         .trajectory_execution(file_path="config/moveit_controllers.yaml")
         .planning_pipelines(
-            pipelines=["ompl", "chomp", "pilz_industrial_motion_planner"]
+            pipelines=["ompl", "pilz_industrial_motion_planner", "planner_base"]
         )
         .to_moveit_configs()
     )
